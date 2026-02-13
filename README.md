@@ -71,3 +71,32 @@ Continuous Deployment to GitHub Pages
 Artifact creation and publishing
 Infrastructure-free static hosting
 Version-controlled deployments
+
+How to Verify the Deployment
+
+Make a change to index.html
+
+Push the change to the main branch
+
+Open the Actions tab and verify the workflow completes successfully
+
+Refresh the live site URL to see the update
+
+This confirms the CI/CD pipeline is functioning correctly.
+
+Use Case
+
+This project is useful for:
+
+Learning CI/CD fundamentals
+
+Demonstrating GitHub Actions in interviews
+
+Building a DevOps portfolio project
+
+Hosting static websites with automation
+
+Author
+
+Piyush
+GitHub: https://github.com/piyushprasad8122-creator
