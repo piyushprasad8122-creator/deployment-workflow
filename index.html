@@ -1,10 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>GitHub Actions Demo</title>
+  <meta charset="UTF-8">
+  <title>GitHub Pages CI/CD Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: #020617;
+      padding: 30px;
+      border-radius: 10px;
+      width: 420px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    }
+    h1 {
+      color: #38bdf8;
+    }
+    code {
+      background: #020617;
+      padding: 4px 6px;
+      border-radius: 4px;
+      color: #22c55e;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, GitHub Actions! 🚀</h1>
-  <p>This site is deployed using GitHub Actions.</p>
+  <div class="card">
+    <h1>GitHub Pages CI/CD</h1>
+    <p>This website is automatically deployed using GitHub Actions.</p>
+    <p>Any change pushed to the <code>main</code> branch triggers a deployment.</p>
+    <p>Status: <strong>Live & Automated</strong></p>
+  </div>
 </body>
 </html>
